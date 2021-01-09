@@ -9,7 +9,6 @@ body {
 	font-size: 14px;
 	text-align: left;
 	margin-left: 30px;
-	text-decoration: none;
 	font-weight: bold;
 	margin: 7px, 13px;
 }
@@ -17,9 +16,13 @@ body {
 .date {
 	color: #808080;
 	font-size: 13px;
-	text-align: left;
+	margin-top: -16px;
+	padding: 0px 0px 0px 95px;
 }
 
+a {
+	text-decoration: none;
+}
 a:hover{
 	color: red;
 }
@@ -27,13 +30,11 @@ a:hover{
 .time {
 	color: #808080;
 	font-size: 13px;
-	text-decoration: none;
 }
 
 .language {
 	margin-left: 81%;
 	margin-top: -25px;
-	text-decoration: none;
 	color: black;
 	font-family: 'Arial';
 	font-size: 13px;
@@ -54,7 +55,6 @@ a:hover{
 }
 
 .mail {
-	text-decoration: none;
 	font-size: 14px;
 	font-weight: bold;
 	color: black;
@@ -62,7 +62,6 @@ a:hover{
 }
 
 .registration {
-	text-decoration: none;
 	font-size: 14px;
 	color: black;
 	margin-left: 50px;	
@@ -89,33 +88,66 @@ a:hover{
 	position: right;
 }
 
+.news {
+	
+}
+
+.currency {
+	line-height: 25px;
+	font-size: 14px;
+	margin-left: 205px;	
+}
+
+.currency_link {
+	color: black;
+}
+
+
+.changes {
+	color: gray;
+}
+
 .smi {
-	text-decoration: none;
 	font-weight: bold;
 	color: #4682B4;
 	margin-left: 200px;
-	margin-bottom: 20%px;
-	line-height: 25px;
+	margin-bottom: 20%;
+	line-height: 30px;
 }
 
 .dn {
-	text-decoration: none;
 	font-weight: bold;
 	color: #1E90FF;
 }
 
-
-
-
 .link {
 	line-height: 25px;
-	text-decoration: none;
 	font-size: 13px;
 	color: black;
 	margin-left: 200px;
 	
 }
 
+.block.weather {
+	margin: 20px 50px 250px 250px
+}
+
+.weather {
+	font-weight: bold;
+	color: #4682B4;
+	
+}
+
+.map {
+	color: #4682B4;
+}
+
+.degree {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+
+}
 
 
 
