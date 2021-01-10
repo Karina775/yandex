@@ -2,6 +2,7 @@
 body {
 	margin:  13px;
 	font-family: 'Arial';
+	
 }
 
 .geolink {
@@ -11,13 +12,15 @@ body {
 	margin-left: 30px;
 	font-weight: bold;
 	margin: 7px, 13px;
+	border: 1px solid red;
 }
 
 .date {
 	color: #808080;
 	font-size: 13px;
 	margin-top: -16px;
-	padding: 0px 0px 0px 95px;
+	margin: -16px 82% 0px 95px;
+	border: 1px solid red;
 }
 
 a {
@@ -30,28 +33,27 @@ a:hover{
 .time {
 	color: #808080;
 	font-size: 13px;
+border: 1px solid red;
 }
 
 .language {
-	margin-left: 81%;
-	margin-top: -25px;
+	margin: -20px 220px 0px 81%;
 	color: black;
 	font-family: 'Arial';
 	font-size: 13px;
-	position: right;
+	border: 1px solid red;
 }
 
-.block {
+.block_mail {
 	width: 200px;
 	height: 80px;
 	background: white;
 	box-shadow: 0 0 10px rgba(192,192,192);
 	border: none;
 	border-radius: 10px;
-	margin-left: 85%;
-	margin-top: -150px;
-	float: none;
-	position: right;
+	margin: -320px 0px 0px 85%;
+	border: 1px solid red;
+	
 }
 
 .mail {
@@ -59,12 +61,14 @@ a:hover{
 	font-weight: bold;
 	color: black;
 	margin-left: 5px;
+	border: 1px solid red;
 }
 
 .registration {
 	font-size: 14px;
 	color: black;
-	margin-left: 50px;	
+	margin-left: 50px;
+border: 1px solid red;	
 }
 
 .entrance {
@@ -74,6 +78,7 @@ a:hover{
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 5px;
+	border: 1px solid red;
 }
 
 .massage {
@@ -86,25 +91,15 @@ a:hover{
 	margin-left: 85%;
 	margin-top: 8px;	
 	position: right;
+	border: 1px solid red;
 }
 
 .news {
-	
-}
-
-.currency {
-	line-height: 25px;
-	font-size: 14px;
-	margin-left: 205px;	
-}
-
-.currency_link {
-	color: black;
-}
-
-
-.changes {
-	color: gray;
+	width: 60%;
+	height: 10%;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: 1px solid red;
 }
 
 .smi {
@@ -113,11 +108,13 @@ a:hover{
 	margin-left: 200px;
 	margin-bottom: 20%;
 	line-height: 30px;
+	border: 1px solid red;
 }
 
 .dn {
 	font-weight: bold;
 	color: #1E90FF;
+	border: 1px solid red;
 }
 
 .link {
@@ -125,27 +122,53 @@ a:hover{
 	font-size: 13px;
 	color: black;
 	margin-left: 200px;
+	border: 1px solid red;
 	
 }
 
-.block.weather {
-	margin: 20px 50px 250px 250px
+.currency {
+	line-height: 25px;
+	font-size: 14px;
+	margin-left: 205px;	
+	border: 1px solid red;
+}
+
+.currency_link {
+	color: black;
+	border: 1px solid red;
+}
+
+
+.changes {
+	color: gray;
+	border: 1px solid red;
+}
+
+.block_weather {
+	width: 300px;
+	height: 100px;
+	border: 1px solid red;
+	
 }
 
 .weather {
 	font-weight: bold;
 	color: #4682B4;
+	border: 1px solid red;
 	
 }
 
 .map {
 	color: #4682B4;
+	border: 1px solid red;
 }
 
 .degree {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 	color: black;
+	border: 1px solid red;
+	
 
 }
 
