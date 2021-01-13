@@ -13,14 +13,12 @@ body {
 	margin-left: 30px;
 	font-weight: bold;
 	margin: 7px, 13px;
-	border: 1px solid red;
 }
 
 .date {
 	color: #808080;
 	font-size: 13px;
 	margin: -18px 82% 0px 95px;
-	border: 1px solid red;
 }
 
 a {
@@ -34,7 +32,6 @@ a:hover{
 .time {
 	color: #808080;
 	font-size: 13px;
-border: 1px solid red;
 }
 
 .language {
@@ -42,7 +39,6 @@ border: 1px solid red;
 	color: black;
 	font-family: 'Arial';
 	font-size: 13px;
-	border: 1px solid red;
 }
 
 .block_mail {
@@ -53,8 +49,6 @@ border: 1px solid red;
 	border: none;
 	border-radius: 10px;
 	margin: -165px 5px 0px 120%;
-	border: 1px solid red;
-	
 }
 
 .mail {
@@ -62,14 +56,12 @@ border: 1px solid red;
 	font-weight: bold;
 	color: black;
 	margin-left: 5px;
-	border: 1px solid red;
 }
 
 .registration {
 	font-size: 14px;
 	color: black;
 	margin-left: 50px;
-border: 1px solid red;	
 }
 
 .entrance {
@@ -79,7 +71,6 @@ border: 1px solid red;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 5px;
-	border: 1px solid red;
 }
 
 .massage {
@@ -92,7 +83,6 @@ border: 1px solid red;
 	margin-left: 120%;
 	margin-top: 8px;	
 	position: right;
-	border: 1px solid red;
 }
 
 .news {
@@ -100,7 +90,6 @@ border: 1px solid red;
 	height: 10%;
 	margin-top: 15px;
 	margin-left: 10px;
-	border: 1px solid red;
 }
 
 .smi {
@@ -109,14 +98,12 @@ border: 1px solid red;
 	margin-left: 200px;
 	margin-bottom: 20%;
 	line-height: 30px;
-	border: 1px solid red;
 }
 
 .dn {
 	margin-left: 10px;
 	font-weight: bold;
 	color: #1E90FF;
-	border: 1px solid red;
 }
 
 .link {
@@ -124,35 +111,28 @@ border: 1px solid red;
 	font-size: 13px;
 	color: black;
 	margin-left: 200px;
-	border: 1px solid red;
-	
 }
 
 .currency {
 	line-height: 25px;
 	font-size: 14px;
 	margin-left: 205px;	
-	border: 1px solid red;
 }
 
 .currency_link {
 	color: black;
-	border: 1px solid red;
 }
-
 
 .changes {
 	color: gray;
-	border: 1px solid red;
 }
 
 .block_weather {
 	margin-left: 64%;
-	margin-top: -170px;
+	margin-top: -180px;
 	width: 230px;
 	height: 100px;
 	border: 1px solid red;
-	
 }
 
 .weather {
@@ -175,8 +155,6 @@ border: 1px solid red;
 
 .cloud {
 	padding: 2px 2px 2px 2px;
-	border: 1px solid red;
-	
 }
 
 .degree {
@@ -187,7 +165,6 @@ border: 1px solid red;
 }
 
 .road {
-	
 	margin-top: 2%;
 	margin-right: 10px;
 	font-size: 13px;
@@ -198,13 +175,47 @@ border: 1px solid red;
 .services {
 	display: flex;
 	margin-top: 30px;
-	margin-left: -320%;
+	margin-left: -290%;
 	padding-left: 10px;
-	font-size: 13px;
-	border: 1px solid red;
-	
+	font-size: 12px;
+}
+
+.service {
+	text-align: center;
 }
 	
+.yandex {
+	margin-left: -335%;
+	
+}
+
+
+.entry_field {
+	margin: -55px 0px 0px 140px;
+	border: 1px solid red;
+}
+
+.form {
+	width: 790px;
+	height: 35px;
+	border-radius: 8px;
+	border-color: #FFD700;
+	border-style: solid;
+}
+
+input:focus::placeholder {
+	opacity: 0;
+}
+
+input:focus {
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+	font-size: 16px; 
+	color: #A9A9A9;
+}
+
 
 
 
