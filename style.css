@@ -129,10 +129,10 @@ a:hover{
 }
 
 .block_weather {
-	margin-left: 64%;
+	margin-left: 63%;
 	margin-top: -180px;
-	width: 230px;
-	height: 100px;
+	width: 255px;
+	height: 80px;
 	border: 1px solid red;
 }
 
@@ -147,7 +147,7 @@ a:hover{
 	margin-left: 10px;
 	color: #4682B4;
 	border: 1px solid red;
-	border: 1px solid red;
+	
 }
 
 .home_link {
@@ -156,18 +156,41 @@ a:hover{
 
 .cloud {
 	padding: 2px 2px 2px 2px;
-	
 }
 
 .degree {
+	margin-top: -60px;
+	margin-left: 50px;
 	font-size: 26px;
 	font-weight: bold;
 	padding-bottom: -10px;
 	border: 1px solid red;
+	display: flex;
+}
+
+.weather_of_the_day {
+	margin-top: -2px;
+	display: flex;
+	border: 1px solid red;
+}
+
+.text_gray {
+	font-size: 11px;
+	color: gray;
+}
+
+.link_time_of_the_day {
+	margin-left: 5px;
+	font-size: 13px;
+	color: black;
 }
 
 .road {
-	margin-top: 2%;
+	margin-top: 15px;
+}
+
+.link_road {
+	margin-top: 5px;
 	margin-right: 10px;
 	font-size: 13px;
 	color: #4682B4;
@@ -195,7 +218,7 @@ a:hover{
 .entry_field {
 	margin: -54px 0px 0px 140px;
 	
-	
+	border: 1px solid red;
 	
 }
 
@@ -226,7 +249,7 @@ input:focus {
 
 .to_find {
 	width: 65px;
-	height: 39px;
+	height: 42px;
 	background: #FFD700;
 	border: none;
 	margin-left: -9px;
@@ -262,7 +285,7 @@ h3 {
 .publication_1line {
 	display: flex;
 	margin-left: -275%;
-	align-items: flex-end;
+	align-items: stretch;
 	border-radius: 10px;
 	
 }
@@ -274,19 +297,20 @@ h3 {
 }
 
 .block1 {
+	border-radius: 7px;
+	
 	position: relative;
 	flex: 1;
 	width: 280px;
-	height: 325px;
-	
-	
+	height: 325px;	
 }
- 
+
+
  .text_1 {
 	margin-top: -220px;
 	z-index: 7;
 	position: absolute;
-	border: 1px solid red;
+	
  }
 
 .text_2 {
