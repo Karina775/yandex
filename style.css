@@ -46,7 +46,7 @@ a:hover{
 	box-shadow: 0 0 10px rgba(192,192,192);
 	border: none;
 	border-radius: 10px;
-	margin: -165px 5px 0px 120%;
+	margin: -180px 5px 0px 117%;
 }
 
 .mail {
@@ -80,7 +80,7 @@ a:hover{
 	box-shadow: 0 0 10px rgba(192,192,192);
 	border: none;
 	border-radius: 10px;
-	margin-left: 120%;
+	margin-left: 117%;
 	margin-top: 8px;	
 	position: right;
 	cursor: pointer;
@@ -132,57 +132,57 @@ a:hover{
 	margin-left: 63%;
 	margin-top: -180px;
 	width: 255px;
-	height: 80px;
-	border: 1px solid red;
+	height: 70px;
+	
 }
 
 .weather {
 	font-weight: bold;
 	color: #4682B4;
-	border: 1px solid red;
+	
 	
 }
 
 .map {
 	margin-left: 10px;
 	color: #4682B4;
-	border: 1px solid red;
+	font-size: 14px;
 	
 }
 
-.home_link {
-	border: 1px solid red;
-}
 
 .cloud {
 	padding: 2px 2px 2px 2px;
 }
 
 .degree {
-	margin-top: -60px;
+	margin-top: -40px;
 	margin-left: 50px;
 	font-size: 26px;
 	font-weight: bold;
 	padding-bottom: -10px;
-	border: 1px solid red;
 	display: flex;
 }
 
 .weather_of_the_day {
+	
 	margin-top: -2px;
 	display: flex;
-	border: 1px solid red;
+	
 }
 
 .text_gray {
-	font-size: 11px;
+	font-size: 10px;
 	color: gray;
 }
 
 .link_time_of_the_day {
-	margin-left: 5px;
-	font-size: 13px;
+	margin-left: 10px;
+	font-size: 12px;
 	color: black;
+	font-weight: normal;
+	
+	
 }
 
 .road {
@@ -190,17 +190,16 @@ a:hover{
 }
 
 .link_road {
-	margin-top: 5px;
 	margin-right: 10px;
 	font-size: 13px;
 	color: #4682B4;
-	border: 1px solid red;
+	
 }
 
 .services {
 	display: flex;
-	margin-top: 35px;
-	margin-left: -290%;
+	margin-top: 100px;
+	margin-left: -250%;
 	padding-left: 10px;
 	font-size: 12px;
 }
@@ -210,7 +209,7 @@ a:hover{
 }
 	
 .yandex {
-	margin-left: -335%;
+	margin-left: -300%;
 	
 }
 
@@ -218,20 +217,17 @@ a:hover{
 .entry_field {
 	margin: -54px 0px 0px 140px;
 	
-	border: 1px solid red;
+	
 	
 }
 
 .form {
 	width: 790px;
-	height: 35px;
+	height: 38px;
 	border-radius: 5px;
 	border-color: #FFD700;
 	border-style: solid;
 	position: relative;
-	
-	
-	
 }
 
 input:focus::placeholder {
@@ -247,21 +243,23 @@ input:focus {
 	color: #A9A9A9;
 }
 
+
+
 .to_find {
+
 	width: 65px;
 	height: 42px;
 	background: #FFD700;
 	border: none;
 	margin-left: -9px;
 	cursor: pointer;
-	
 	font-size: 15px;
 	
 }
 
 
 .yandex_dzen {
-	margin-left: -275%;
+	margin-left: -245%;
 	width: 410px;
 	height: 30px;
 	display: flex;
@@ -274,7 +272,6 @@ input:focus {
 	height: 20px;
 	margin-top: 6px;
 	margin-left: 10px;
-	
 }
 
 h3 {
@@ -282,23 +279,21 @@ h3 {
 	margin-left: 10px;
 }
 
-.publication_1line {
+.publication_blocks {
 	display: flex;
-	margin-left: -275%;
+	flex-wrap: wrap;
+	margin-left: -245%;
 	align-items: stretch;
 	border-radius: 10px;
-	
 }
 
-.publication_1line div {
-	
+.publication_blocks div {
 	padding: 0;
 	border: 1px solid red;
 }
 
 .block1 {
 	border-radius: 7px;
-	
 	position: relative;
 	flex: 1;
 	width: 280px;
@@ -310,7 +305,6 @@ h3 {
 	margin-top: -220px;
 	z-index: 7;
 	position: absolute;
-	
  }
 
 .text_2 {
@@ -326,17 +320,9 @@ h3 {
 }
 
 
-.publication_2line {
-	display: flex;
-	margin-left: -275%;
-	align-items: flex-end;
-}
 
-.publication_2line div {
-	
-	padding: 0;
-	border: 1px solid red;
-}
+
+
 
 .block2 {
 	position: relative;
