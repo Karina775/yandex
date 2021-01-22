@@ -1,5 +1,6 @@
 
 body {
+	min-width: 1000px;
 	margin:  13px;
 	font-family: 'Arial';
 }
@@ -87,6 +88,7 @@ a:hover{
 }
 
 .news {
+	min-width: 1000px;
 	width: 60%;
 	height: 10%;
 	margin-top: 15px;
@@ -132,22 +134,18 @@ a:hover{
 	margin-left: 63%;
 	margin-top: -180px;
 	width: 255px;
-	height: 70px;
-	
+	height: 70px;	
 }
 
 .weather {
 	font-weight: bold;
 	color: #4682B4;
-	
-	
 }
 
 .map {
 	margin-left: 10px;
 	color: #4682B4;
 	font-size: 14px;
-	
 }
 
 
@@ -164,11 +162,9 @@ a:hover{
 	display: flex;
 }
 
-.weather_of_the_day {
-	
+.weather_of_the_day {	
 	margin-top: -2px;
 	display: flex;
-	
 }
 
 .text_gray {
@@ -181,8 +177,6 @@ a:hover{
 	font-size: 12px;
 	color: black;
 	font-weight: normal;
-	
-	
 }
 
 .road {
@@ -216,9 +210,6 @@ a:hover{
 
 .entry_field {
 	margin: -54px 0px 0px 140px;
-	
-	
-	
 }
 
 .form {
@@ -246,7 +237,8 @@ input:focus {
 
 
 .to_find {
-
+	
+	
 	width: 65px;
 	height: 42px;
 	background: #FFD700;
@@ -256,6 +248,8 @@ input:focus {
 	font-size: 15px;
 	
 }
+
+
 
 
 .yandex_dzen {
@@ -274,9 +268,9 @@ input:focus {
 	margin-left: 10px;
 }
 
-h3 {
-	margin-top: 4px;
-	margin-left: 10px;
+.dzen {
+	margin-top: -30px;
+	margin-left: 35px;
 }
 
 .publication_blocks {
@@ -288,35 +282,46 @@ h3 {
 }
 
 .publication_blocks div {
-	padding: 0;
-	border: 1px solid red;
+	padding: 3px;
+	
 }
 
-.block1 {
+
+
+.block_small {
+	
 	border-radius: 7px;
-	position: relative;
 	flex: 1;
-	width: 280px;
+	width: 285px;
 	height: 325px;	
 }
 
-
+.publication_text {
+	width: 280px;
+	height: 170px;	
+	
+	
+}
  .text_1 {
 	margin-top: -220px;
 	z-index: 7;
 	position: absolute;
+	border: 1px solid red;
+	
  }
 
 .text_2 {
 	margin-top: -240px;
 	z-index: 7;
 	position: absolute;
+	border: 1px solid red;
 }
 
 .text_3 {
 	margin-top: -175px;
 	z-index: 7;
 	position: absolute;
+	border: 1px solid red;
 }
 
 
@@ -324,7 +329,8 @@ h3 {
 
 
 
-.block2 {
+.block_big {
+	border-radius: 7px;
 	position: relative;
 	flex: 2;
 	width: 560px;
