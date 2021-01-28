@@ -1,8 +1,12 @@
 
 body {
+	overflow-x: auto;
+	position: absolute;
+	min-width: 936px;
 	margin:  13px;
 	font-family: 'Arial';
 }
+
 
 .geolink {
 	color: #808080;
@@ -35,7 +39,7 @@ a:hover{
 }
 
 .language {
-	margin: -20px 220px 0px 81%;
+	margin: -20px 220px 0px 98%;
 	color: black;
 	font-family: 'Arial';
 	font-size: 13px;
@@ -132,7 +136,7 @@ a:hover{
 }
 
 .block_weather {
-	margin-left: 63%;
+	margin-left: 76%;
 	margin-top: -180px;
 	width: 255px;
 	height: 70px;	
@@ -184,11 +188,15 @@ a:hover{
 	margin-top: 15px;
 }
 
+.transport {
+	font-weight: bold;
+	color: #4682B4;
+} 
+
 .link_road {
 	margin-right: 10px;
 	font-size: 13px;
-	color: #4682B4;
-	
+	color: #4682B4;	
 }
 
 .services {
@@ -214,7 +222,7 @@ a:hover{
 
 .form {
 	width: 790px;
-	height: 38px;
+	height: 35px;
 	border-radius: 5px;
 	border-color: #FFD700;
 	border-style: solid;
@@ -236,13 +244,14 @@ input:focus {
 
 .to_find {
 	width: 65px;
-	height: 42px;
+	height: 41px;
 	background: #FFD700;
 	border: none;
 	margin-left: -9px;
 	cursor: pointer;
 	font-size: 15px;
 }
+
 
 .yandex_dzen {
 	margin-left: -245%;
