@@ -287,6 +287,10 @@ input:focus {
 	padding: 3px;
 }
 
+.publication_blocks a:hover{
+	color: black;
+}
+
 .block_small {
 	border-radius: 7px;
 	flex: 1;
