@@ -1,0 +1,35 @@
+.bc_wrapper {
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.bc_left {
+    display: flex;
+    border: 1px solid yellow;
+    width: 10%;
+}
+.bc_right {
+    display: flex;
+    border: 1px solid blue;
+    width: 10%;
+}
+.bc_content {
+    display: flex;
+    border: 1px solid green;
+    flex-direction: column;
+    width: 80%;
+}
+.bc_row {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid orange;
+    width: 100%;
+    height: 30px;
+}
+.bc_description {
+    border: 1px solid purple;
+}
+.bc_weather {
+    border: 1px solid pink;
+}
