@@ -10,23 +10,20 @@ a {
 a:hover{
 	color: red;
 }
-
-.rows_wrapper {
-	display: flex;
-	align-items: stretch;
+.bc_wrapper {
+    width: 100%;
+    height: 800px;
+    display: flex;
 }
-
-.content_block1 {
-	min-width: 120px;
-	width: 15%;
-	position: relative;
+.bc_left {
+    display: flex;
+    width: 15%;
 }
-
 .geolocation {
+	width: 200px;
+	height: 50px;
 	display: flex;
-	position: absolute;
-	top: 10px;
-	left: 30px;
+	flex-direction: column;
 }
 
 .date {
@@ -48,23 +45,23 @@ a:hover{
 	font-size: 13px;
 }
 
-.yandex {
-	position: absolute;
-	right: 0;
-	top: 280px;
+.bc_content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
-
-.content_block2 {
-	min-width: 930px;
-	width: 70%;
-	position: relative;
+.bc_row {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 180px;
 }
-
 .news {
+	min-width: 550px;
 	width: 550px;
-	position: absolute;
-	left: 0px;
-	top: 30px;
+	height: 180px;
 }
 
 .smi {
@@ -98,21 +95,17 @@ a:hover{
 }
 
 .language {
-	position: absolute;
-	right: 20px;
-	top: 0;
+	margin-left: auto;
+	width: 25px;
 	color: black;
 	font-size: 13px;
 }
-
 .block_weather {
-	position: absolute;
-	right: 50px;
-	top: 30px;
+    min-width: 255px;
 	width: 255px;
 	height: 70px;
+	margin-right: 50px;
 }
-
 .weather {
 	font-weight: bold;
 	color: #4682B4;
@@ -173,25 +166,36 @@ a:hover{
 	font-size: 13px;
 	color: #4682B4;	
 }
+.bc_row2 {
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
 .services {
-	position: absolute;
 	display: flex;
 	font-size: 12px;
-	top: 230px;
+	min-width: 950px;
 }
 
 .service {
 	text-align: center;
 }
+
+.bc_row3 {
+    display: flex;
+    
+    width: 100%;
+    height: 41px;
+}
 .entry_field {
 	display: flex;
-	position: absolute;
-	top: 300px;
-	left: 15px;
+	margin-left: 20px;
 }
 
 .form {
-	width: 790px;
+	width: 810px;
 	height: 35px;
 	border-radius: 5px;
 	border-color: #ffdb4d;
@@ -225,20 +229,21 @@ input:focus {
 	width: 17px;
 }
 
+.bc_row4 {
+	margin-top: 10px;
+    display: flex;
+    
+    width: 100%;
+    height: 40px;
+}
 .yandex_dzen {
-	position: absolute;
-	top: 360px;
-	left: 10px;
-	width: 410px;
-	height: 30px;
+	margin-left: 20px;
 	display: flex;
 }
 
 .line {
 	color: #808080;
 	font-size: 15px;
-	width: 300px;
-	height: 20px;
 	margin: 6px 0px 0px 10px;
 }
 
@@ -246,21 +251,25 @@ input:focus {
 	margin: -30px 0px 0px 35px;
 }
 
+.bc_row5 {
+	margin-top: 10px;
+    display: flex;
+    
+    width: 100%;
+    height: 670px;
+}
+
 .publication_blocks {
-	position: absolute;
-	top: 400px;
-	left: 10px;
+	min-width: 950px;
+	margin-left: 15px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
 	border-radius: 10px;
-	
-	
 }
 
 .publication_blocks div {
 	padding: 3px;
-	
 }
 
 .publication_blocks a:hover{
@@ -355,12 +364,9 @@ h4 {
 	height: 325px;
 }
 
-.content_block3 {
-	min-width: 120px;
-	width: 15%;
-	position: relative;
-	right: 0;
-	top: 0;
+.bc_right {
+    display: flex;
+    width: 15%;
 }
 .block_mail {
 	position: absolute;
@@ -405,5 +411,5 @@ h4 {
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
-	top: 85px;
+	top: 95px;
 }
