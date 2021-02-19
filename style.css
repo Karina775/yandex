@@ -12,18 +12,20 @@ a:hover{
 }
 .bc_wrapper {
     width: 100%;
-    height: 800px;
+    height: 1100px;
     display: flex;
+	min-width: 1100px;
 }
 .bc_left {
     display: flex;
     width: 15%;
 }
 .geolocation {
-	width: 200px;
-	height: 50px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	width: 400px;
+	height: 20px;
+	margin-left: 20px;
 }
 
 .date {
@@ -45,16 +47,20 @@ a:hover{
 	font-size: 13px;
 }
 
+.yandex {
+	margin-top: 280px;
+	margin-left: -150px;
+}
+
 .bc_content {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 .bc_row {
-	margin-top: 30px;
+	margin-top: 10px;
     display: flex;
     justify-content: space-between;
-   
     width: 100%;
     height: 180px;
 }
@@ -96,12 +102,11 @@ a:hover{
 
 .language {
 	margin-left: auto;
-	width: 25px;
+	width: 50px;
 	color: black;
 	font-size: 13px;
 }
 .block_weather {
-    min-width: 255px;
 	width: 255px;
 	height: 70px;
 	margin-right: 50px;
@@ -116,7 +121,6 @@ a:hover{
 	color: #4682B4;
 	font-size: 14px;
 }
-
 
 .cloud {
 	padding: 2px 2px 2px 2px;
@@ -176,7 +180,6 @@ a:hover{
 .services {
 	display: flex;
 	font-size: 12px;
-	min-width: 950px;
 }
 
 .service {
@@ -185,7 +188,6 @@ a:hover{
 
 .bc_row3 {
     display: flex;
-    
     width: 100%;
     height: 41px;
 }
@@ -200,7 +202,6 @@ a:hover{
 	border-radius: 5px;
 	border-color: #ffdb4d;
 	border-style: solid;
-
 }
 
 input:focus::placeholder {
@@ -226,13 +227,12 @@ input:focus {
 }
 
 .arrow {
-	width: 17px;
+	width: 15px;
 }
 
 .bc_row4 {
 	margin-top: 10px;
-    display: flex;
-    
+    display: flex; 
     width: 100%;
     height: 40px;
 }
@@ -254,13 +254,11 @@ input:focus {
 .bc_row5 {
 	margin-top: 10px;
     display: flex;
-    
     width: 100%;
     height: 670px;
 }
 
 .publication_blocks {
-	min-width: 950px;
 	margin-left: 15px;
 	display: flex;
 	flex-wrap: wrap;
