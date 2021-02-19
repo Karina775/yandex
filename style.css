@@ -12,20 +12,31 @@ a:hover{
 }
 .bc_wrapper {
     width: 100%;
+<<<<<<< HEAD:style.css
     height: 1100px;
     display: flex;
 	min-width: 1100px;
+=======
+    height: 800px;
+    display: flex;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 }
 .bc_left {
     display: flex;
     width: 15%;
 }
 .geolocation {
+	width: 200px;
+	height: 50px;
 	display: flex;
+<<<<<<< HEAD:style.css
 	flex-direction: row;
 	width: 400px;
 	height: 20px;
 	margin-left: 20px;
+=======
+	flex-direction: column;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 }
 
 .date {
@@ -47,6 +58,7 @@ a:hover{
 	font-size: 13px;
 }
 
+<<<<<<< HEAD:style.css
 .yandex {
 	margin-top: 280px;
 	margin-left: -150px;
@@ -61,6 +73,18 @@ a:hover{
 	margin-top: 10px;
     display: flex;
     justify-content: space-between;
+=======
+.bc_content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.bc_row {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
     width: 100%;
     height: 180px;
 }
@@ -102,11 +126,19 @@ a:hover{
 
 .language {
 	margin-left: auto;
+<<<<<<< HEAD:style.css
 	width: 50px;
+=======
+	width: 25px;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 	color: black;
 	font-size: 13px;
 }
 .block_weather {
+<<<<<<< HEAD:style.css
+=======
+    min-width: 255px;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 	width: 255px;
 	height: 70px;
 	margin-right: 50px;
@@ -180,6 +212,10 @@ a:hover{
 .services {
 	display: flex;
 	font-size: 12px;
+<<<<<<< HEAD:style.css
+=======
+	min-width: 950px;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 }
 
 .service {
@@ -188,6 +224,10 @@ a:hover{
 
 .bc_row3 {
     display: flex;
+<<<<<<< HEAD:style.css
+=======
+    
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
     width: 100%;
     height: 41px;
 }
@@ -232,7 +272,12 @@ input:focus {
 
 .bc_row4 {
 	margin-top: 10px;
+<<<<<<< HEAD:style.css
     display: flex; 
+=======
+    display: flex;
+    
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
     width: 100%;
     height: 40px;
 }
@@ -254,11 +299,19 @@ input:focus {
 .bc_row5 {
 	margin-top: 10px;
     display: flex;
+<<<<<<< HEAD:style.css
+=======
+    
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
     width: 100%;
     height: 670px;
 }
 
 .publication_blocks {
+<<<<<<< HEAD:style.css
+=======
+	min-width: 950px;
+>>>>>>> c1a82b8ccdf4a6215b6f8a4ba6b65c7c40b4b8a0:style2.css
 	margin-left: 15px;
 	display: flex;
 	flex-wrap: wrap;
